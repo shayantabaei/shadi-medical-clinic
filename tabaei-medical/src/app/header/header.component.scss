@@ -6,6 +6,9 @@
     top: 0;
     width: 100%; 
     display: block;
+    margin: 0 auto;
+    transform: translateY(-24%);
+    z-index: 9999;
 }
 
 .navbar a {
@@ -24,5 +27,27 @@
 
 .main {
     margin-top: 30px; 
+}
+
+.header-border {
+    &--top {
+        border: 1px solid red;
+    }
+    &--sides {
+        border-left: 1px solid red;
+        border-right: 1px solid red;
+    }
+    &--all {
+        border: 1px solid red;
+        background-color: black;
+    }
+}
+
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: auto;
+    height: 200px !important;
+    transform: translateY(20%);
 }
 

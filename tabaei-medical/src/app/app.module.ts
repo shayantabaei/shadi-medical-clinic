@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { MenuDropdownComponent } from './menu-dropdown/menu-dropdown.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 
 @NgModule({
@@ -13,7 +13,7 @@ import { MenuDropdownComponent } from './menu-dropdown/menu-dropdown.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    MenuDropdownComponent
+    MainPageComponent,
   ],
   imports: [
     BrowserModule
