@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { QuoteSectionComponent } from './quote-section/quote-section.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { MainPageComponent } from './main-page/main-page.component';
     HeaderComponent,
     FooterComponent,
     MainPageComponent,
+    QuoteSectionComponent,
   ],
   imports: [
     BrowserModule
