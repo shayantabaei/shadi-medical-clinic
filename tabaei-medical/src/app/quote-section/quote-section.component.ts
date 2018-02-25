@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class QuoteSectionComponent implements OnInit {
 
   constructor() { }
+    
+    public changeActiveList(listItem) {
+        console.log('hi');
+    }
 
   ngOnInit() {
   }
