@@ -1,11 +1,11 @@
 <div class="navbar row" style="background-color: white;">
     <div>
-        <img class="logo" src="../../assets/imgs/ST-logo-6.png">
+        <img class="logo" src="assets/imgs/ST-logo-6.png">
     </div>
     <div class="row">
-        <a href="javascript:void(0)" class="col-md-3 sm-md-3 header-border--sides header-border--all">About Me</a>
-        <a href="javascript:void(0)" class="col-md-3 sm-md-3 header-border--sides header-border--all">Naturopathic Medicine</a>
-        <a href="javascript:void(0)" class="col-md-3 sm-md-3 header-border--sides header-border--all">Conditions Treated</a>
-        <a href="javascript:void(0)" class="col-md-3 sm-md-3 header-border--sides header-border--all">Blog</a>
+        <a href="javascript:void(0)" class="col-md-3 sm-md-3 header-border--sides header-border--all" (click)="goToSection()">About Me</a>
+        <a href="javascript:void(0)" class="col-md-3 sm-md-3 header-border--sides header-border--all" (click)="goToSection()">Naturopathic Medicine</a>
+        <a href="javascript:void(0)" class="col-md-3 sm-md-3 header-border--sides header-border--all" (click)="goToSection('conditions')">Conditions Treated</a>
+        <a href="javascript:void(0)" class="col-md-3 sm-md-3 header-border--sides header-border--all" (click)="goToSection()">Blog</a>
     </div>
 </div>
