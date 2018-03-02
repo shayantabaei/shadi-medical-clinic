@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: pink;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: pink; 
+}
+
+@font-face {
+    font-family: "Lucida Handwriting";
+    src: url('assets/fonts/LHANDW.ttf');
+}
+
+.LucidaRegular {
+    font-family: 'Lucida Handwriting';
+}
+
+body, html {
+    font-family: "Calibri";
+}
+
+.list-group {
+    width: 160px !important;
+}
+
+.list-group-item {
+    font-size: 18px !important;
+}
