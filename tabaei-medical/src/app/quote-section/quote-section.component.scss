@@ -25,3 +25,9 @@
 .bold {
     font-weight: bold;
 }
+
+@media (min-width: 800px) and (max-width: 1367px) {
+    .img-alignment {
+        margin-left: 222px;
+    }
+}
